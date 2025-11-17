@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trotamundos</title>
+</head>
+
+<body>
+
+    <body>
+        <h1>Agencia de Viajes Trotamundos</h1>
+        <image src="trotamundos imagen.jpg" width="400" heigth="400" alt="dibujo viajero sobre planeta Tierra"></image>
+
+        <p></p>
+        <h2><a href="https://www.instagram.com/viajestrotamundos/?hl=es">Conoce nuestras mejores ofertas</a></h2>
+        <p></p>
+
+        <section id="solicitud">
+            <form>
+                <fieldset>
+
+                    <legend> <strong>Solicita tu guía de viajes personalizado</strong></legend>
+                    <fieldset>
+                        <legend>Contacto</legend>
+                        <label>Nombre:</label>
+                        <input type="text" placeholder="Escribe aquí tu nombre">
+                        <p></p>
+                        <label>Telefono:</label>
+                        <input type="tel" placeholder="Nº de telefono">
+                        <p></p>
+                        <label>Email:</label>
+                        <input type="email" placeholder="Tu correo electrónico">
+                    </fieldset>
+                    <p></p>
+
+                    <fieldset>
+                        <legend>Tu viaje</legend>
+                        <label>Destino:</label>
+                        <select name="variedad">
+                            <option value="sinSelec">------</option>
+                            <optgroup label="Nacional">
+                                <option value="Madrid">Madrid</option>
+                                <option value="Barcelona">Barcelona</option>
+                            </optgroup>
+                            <optgroup label="Europa">
+                                <option value="Portugal">Porto - Portugal</option>
+                                <option value="Suiza">Londres - Reino Unido</option>
+                            <optgroup label="Internacional">
+                                <option value="Brasil">Rio de Janiero - Brasil</option>
+                                <option value="Estados Unidos">Nueva Iorque - Estados Unidos</option>
+                            </optgroup>
+                        </select>
+
+                        <p></p>
+                        <label>Fecha de ida:</label>
+                        <input type="date">
+                        <p></p>
+                        <label>Fecha de vuelta:</label>
+                        <input type="date">
+                        <p></p>
+                        <label>¿Qué medio quieres utilizar para llegar a tu destino?</label>
+                        <p></p>
+                        <input type="radio" name="tipoViaje" value="Avión"><label>Avión</label>
+                        <input type="radio" name="tipoViaje" value="Coche"><label>Coche</label>
+                        <input type="radio" name="tipoViaje" value="Tren"><label>Tren</label>
+                        <input type="radio" name="tipoViaje" value="Crucero"><label>Crucero</label>
+                        <p></p>
+                        <label>Extras de tu viaje:</label>
+                        <p></p>
+                        <input type="checkbox" name="extras" value="alquilerCoche">
+                        <label>Alquilar Coche</label>
+                        <input type="checkbox" name="extras" value="maletaExtra">
+                        <label>Maleta Extra</label>
+                        <input type="checkbox" name="extras" value="tourGuiado">
+                        <label>Tour guiado</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Observaciones:</label>
+                        <p></p>
+                        <textarea id="textarea1" rows="4" cols="40"></textarea>
+                    </fieldset>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar formulario</button>
+
+                </fieldset>
+
+            </form>
+
+
+        </section>
+
+    </body>
+
+</html>
